@@ -1,0 +1,148 @@
+*{
+	padding: 0; 
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: whitesmoke;
+}
+
+nav{
+	background-color:  #cefad6  ; 
+}
+
+
+#logo1{
+	width: 20%;
+	height: 20%;
+	border-radius: 50px;
+}
+.img-responsive{
+	align-self: center;
+	width:65%;
+	height:40%;
+}
+/* Cards Boostrap  */
+
+.card{
+	background-color:   #cefad6  ; 
+}
+
+.cards{
+	text-align: center; 
+}
+
+/*Sección de los Valores destacados*/
+.valores{
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+    grid-template-rows: 100% ;
+    margin-left: 0px;
+    grid-column-gap: 4%;
+}
+
+.imgvalores{
+	height: 50%;
+    width: 30%;
+    border: 10px solid rgb(175, 247, 175);
+    border-radius: 100%;
+}
+.cora{
+	display: inline-flex;
+	justify-content: center;
+
+}
+h3{
+    font-family: 'Raleway', sans-serif;
+    text-align: center ;
+}
+
+@media (max-width: 700px){
+	.valores{
+   	 	display: flex;
+    	flex-wrap: wrap;
+}
+	.imgvalores{
+		height: 70px;
+    	width: 134px;
+    	border: 10px solid rgb(175, 247, 175);
+    	border-radius: 100%;
+}
+}
+/*FOOTER*/
+
+.cardheader{
+	background-color:lightgreen; 
+}
+
+
+.fb, .wp, .inst, .YT{
+    background-image: url(Img/icon.png);
+    width: 50px; 	
+    height: 37px;
+    margin: auto;
+    display: inline-flex;
+    float: left;
+}
+
+.fb{
+    background-position-x: left ;
+    background-position-y: -7px ;
+}
+.fb:hover{
+    background-position-x: right ;
+    background-position-y: -7px ;
+}
+.wp{
+    background-position-y:-115px ;
+    background-position-x: 2px;
+    height: 40px;
+}
+.wp:hover{
+    background-position-x: right;
+    background-position-y: -115px;
+}
+.inst{
+    background-position-y: -45px;
+    background-position-x: left;
+    height: 39px;
+}
+.inst:hover{
+    background-position-y: -45px;
+    background-position-x: right;
+    height: 39px;
+}
+.YT{
+    background-position-y: -82px;
+    background-position-x: 2px;
+}
+.YT:hover{
+    background-position-y: -82px;
+    background-position-x: right;
+}
+h4{
+    margin-left: 12%;
+    font-size: small;
+}
+
+/*Button */
+
+button{ color:black;
+	background-image: url("Img/logo1.png");
+		position: fixed;
+		z-index: 999;
+  bottom: 10px;
+  right: 10px;  
+	}
+
+
+/* Flyer */
+
+@media (max-width: 700px){
+	.fly{
+		height: 150px;
+		width: 150px;
+	}
+
+}
