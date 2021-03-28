@@ -146,3 +146,76 @@ button{ color:black;
 	}
 
 }
+
+
+
+/* Imagenes / CARDS */
+
+/*.carni1{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: Dionea;
+  animation-duration: 4s;
+}
+
+
+
+@keyframes carni01{
+    from {ba}
+}
+.carni1{
+    width: 475px;
+    height: 400px;
+    background-color: none;
+    transition: width 2s height, 2s, transform 5s;
+}
+
+.carni1:hover{
+    width: 700px;
+    height: 700px;
+    transform: rotate(180deg);
+}
+
+.carni01{
+    width: 233px; /*457px;
+    height: 275px;
+    background-color: lightgreen;
+    transition: width 2s;
+}
+
+.carni01:hover{
+    width: 457px;
+
+}*/
+
+
+.carni1{
+    background-image: url(./Img/carni1.jpg);
+
+    background-size: contain;
+    height: 500px;
+
+}
+
+.dionea-text{
+   /* background-color: white;*/
+    border-radius: 30%;
+    height: 200px;
+    width: 200px;
+    margin-left: 600px; 
+    padding-top: 200px;
+    align-items: center;
+    
+
+}
+
+.dionea-text:hover{
+    background-color: white;
+    background-position: center;
+}
+
+
+.Dionea{
+    font-size: 30px;
+}
